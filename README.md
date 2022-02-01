@@ -1,0 +1,14 @@
+# Projeto-de-Relatorio-de-vendas
+
+Infos:
+  Este foi um projeto desenvolvido durante um curso realizado no começo do ano de 2022.
+
+O objetivo era analisar um arquivo excel que continha dados das vendas mensais de uma empresa e depois disso criar e enviar um email automático que possuísse o faturamento total e a quantidade total de vendas do mês.
+
+As ferramentas utilizadas nesse projeto em python foram:
+                    Pyautogui
+                    Pandas
+                    Pyperclip
+                    Time
+
+Ele foi produzido e testado no ambiente Jupyter, um opensource para python.
