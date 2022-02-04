@@ -22,7 +22,7 @@ pyautogui.click(x=1154, y=188)
 pyautogui.click(x=1133, y=630)
 time.sleep(8)
 
-tabela = pd.read_excel(r"C:\Users\FamiliaM\Downloads\Vendas - Dez.xlsx")
+tabela = pd.read_excel(r"C:\Users\YourUser\Downloads\Vendas - Dez.xlsx")
 display(tabela)
 
 faturamento = tabela["Valor Final"].sum()
@@ -35,7 +35,8 @@ pyautogui.press("enter")
 time.sleep(5)
 pyautogui.click(x=91, y=210)
 time.sleep(0.5)
-pyautogui.write("mtgr2004@gmail.com")
+
+pyautogui.write("YourEmail@gmail.com")
 pyautogui.press("tab")
 pyautogui.press("tab")
 time.sleep(0.5)
